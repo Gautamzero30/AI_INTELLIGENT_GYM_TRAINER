@@ -1,0 +1,19 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local settings and credentials
+.env
+.env/
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local workout data and operating-system files
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
